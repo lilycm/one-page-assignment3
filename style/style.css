@@ -1,0 +1,187 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
+.material-symbols-outlined{
+    color: goldenrod;
+    outline: black;
+}
+
+
+/* this is section1 */
+#heading2{
+    margin-left: 50px;
+    text-align: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav ul{
+    display:flex;
+    justify-content: right;
+    margin-right: 75px;
+ 
+}
+nav li{
+    list-style: none;
+    margin: 5px 55px 0 40px;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+.first-div{
+    display: flex;
+    margin: 20px 20px 20px 50px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+#h1-p{
+    margin: 30px 90px 20px 0;
+}
+.link{
+    text-decoration: none;
+    background-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: aliceblue;
+}
+.link:hover{
+    background-color: aliceblue;
+    color: rgb(0, 119, 255);
+    border: 3px solid rgb(0, 153, 255);
+}
+.img{
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+.img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+/* this is section2 */
+.section2{
+    margin: 80px;
+}
+.img1{
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    display: flex;
+    margin: 10px 40px ;
+    justify-content: center;
+    flex-direction: row;
+}
+#daraz{
+    position: relative;
+    top: 15px;
+}
+#rakuten{
+    position: relative;
+    top: 17px;
+}
+#target{
+    position: relative;
+    top: 10px;
+}
+#walmart{
+    position: relative;
+    top: 25px;
+}
+.logo{
+    width: 150px;
+    margin: 0 10px;
+}
+.logo img{
+    display: block;
+
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: 1;
+    position: relative;
+}
+/* this is section3 */
+h2{
+    text-align: center;
+}
+.products{
+    display: flex;
+   margin-left: 115px;
+   margin-right: 40px;
+   margin-top: 50px;
+}
+.products1{
+    display: flex;
+    margin-left: 115px;
+    margin-right: 130px;
+    margin-top: 50px;
+}
+.div2{
+    margin-left: 5px;
+}
+.pragrap{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.images{
+    border-radius: 10px;
+    margin-left:  30px;
+}
+.see-more{
+    text-align: right;
+    margin-right: 60px;
+}
+.see-more:hover a{
+    color: rgb(214, 68, 42);
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+/* this is last-section */
+.last-section{
+    display: flex;
+    margin-top: 45px;
+    padding-bottom: 20px;
+}
+.last-class{
+   text-align:left;
+   margin: 0 50px 0 40px;
+}
+#lasth2{
+    text-align: left;
+}
+#img{
+    margin-left: 110px;
+}
+/* this is footer section */
+footer{
+    background-color: rgb(0, 110, 255);
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+    padding-top: 10px;
+   padding-bottom: 5px;
+   
+}
+h5{
+    margin: 0;
+}
