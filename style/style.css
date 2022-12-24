@@ -153,16 +153,17 @@ h2{
     border-radius: 10px;
     margin-left:  35px;
 }
-.see-more{
+.link1{
     text-align: right;
-    margin-right: 60px;
 }
-.see-more:hover a{
-    color: rgb(214, 68, 42);
-}
-a{
+.link1 a{
     text-decoration: none;
     color: blue;
+}
+
+.link1:hover a{
+    color: rgb(236, 183, 9);
+  
 }
 /* this is last-section */
 .last-section{
